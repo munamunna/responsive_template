@@ -19,6 +19,11 @@ img{
     width: 100%;
 
 }
+.bg-cover{
+    background-position: center;
+    background-size: cover;
+    
+}
 /* #############################        NAVBAR TOP     #################################################### */
 .top-nav{
     background-color: #ff4d29;
@@ -85,3 +90,39 @@ img{
 }
 
 /* #############################     second navbar end ################################################### */
+
+/* ############################# slidebar ##################################### */
+.slide1{
+    background-image:linear-gradient(rgba(9,32,50,0.4),rgba(9,32,50,0.4)),url(../images/bg_banner1.jpg);
+}
+
+.slide2{
+    background-image:linear-gradient(rgba(9,32,50,0.4),rgba(9,32,50,0.4)),url(../images/bg_banner2.jpg);
+}
+.owl-prev,
+.owl-next{
+    position: absolute;
+    top: 50%;
+    width: 60px !important;
+    height: 60px !important;
+    display:grid;
+    place-items: center;
+    background-color: rgba(255, 255,255, 0.2)!important;
+    margin-top: -30px !important;
+    color: #ffffff !important;
+    font-weight: 700;
+    font-size: 12px !important;
+    border-radius: 100px!important;
+    
+}
+.owl-prev{
+    left: 0;
+}
+.owl-next{
+    right: 0;
+}
+.owl-next:hover,
+.owl-prev:hover{
+    background-color: #ff4d29!important;
+}
+/* ############################# slidebar end  ################################# */
