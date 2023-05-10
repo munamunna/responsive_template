@@ -126,3 +126,19 @@ img{
     background-color: #ff4d29!important;
 }
 /* ############################# slidebar end  ################################# */
+
+/* ############################# About ############################################ */
+.info-box img{
+    width: 90px;
+    margin-right: 28px;
+
+}
+section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.info-box{
+    display: flex;
+    align-items: center;
+}
+/* ############################# About end ####################################### */
